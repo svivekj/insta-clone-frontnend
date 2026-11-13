@@ -1,16 +1,36 @@
-# React + Vite
+````
+# 📱 Instagram Clone - React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive single-page web application built with **React 19**, **Vite**, and **Tailwind CSS v4**. It interfaces directly with the Spring Boot backend REST API to render live feeds, post creation forms, interactive heart likes, and real-time comment threads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack & Requirements
 
-## React Compiler
+- **React 19**
+- **Vite** (Next-gen frontend build tool)
+- **Tailwind CSS v4** (Utility-first CSS styling)
+- **Lucide React** (Modern SVG icon library)
+- **Axios** (HTTP client for API requests)
+- **Node.js** (v18+ recommended)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🌐 Infrastructure & Ports
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Development Server Port:** `5173` (`http://localhost:5173`)
+- **Backend API Base URL:** `http://localhost:9090/api`
+
+---
+
+## 🛠️ Setup & Running Instructions
+
+### Step 1: Install Dependencies
+
+Navigate into your frontend project directory and install the required npm packages:
+
+```bash
+cd insta-clone-frontend
+npm install
+```
+````
